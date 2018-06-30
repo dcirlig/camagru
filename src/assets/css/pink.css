@@ -1,0 +1,58 @@
+
+  #registerform button, #loginform button, #reset_form button, .btn-primary {
+    background-color: #fd6464 !important;
+    border: 1px solid #fd6464 !important;
+  }
+
+  .loginlink {
+    color: #fd6464;
+  }
+
+  #registerform button:hover, #loginform button:hover, #reset_form button:focus, .btn-primary:hover, .delete_last_photo:hover {
+    background-color: #c76673 !important;
+  }
+
+  .loginlink:hover {
+    color: #a7650b;
+    text-decoration: none;
+  }
+  .fa.settings{
+    font-size: 25px;
+    color: #fd6464;
+    margin-right: 1%;
+  }
+
+  input:checked + .slider {
+    background-color: #fd6464;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #fd6464;
+  }
+
+  .pagination a.active {
+    background-color: #fd6464;
+    color: white;
+  }
+
+  .delete_last_photo {
+    width: 100%;
+    background-color: #fd6464 !important;
+    border: none;
+  }
+
+  .media-content i {
+    color: #011627 !important;
+    font-size: 18px;
+    cursor: pointer;
+  }
+
+  #registerform input, #loginform input, #reset_form input {
+    background-color: #fff6f7;
+    border: 1px solid #efefef;
+    padding: 4%;
+  }
+
+  body, html, #selectTheme  {
+    background-color: #fff6f7 !important;
+  }
